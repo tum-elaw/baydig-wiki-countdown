@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Countdown Clock</title>
+	<link rel="stylesheet" href="https://web.logwork.com/cores/161/tpl/main/widget/countdown/css/circles.css">
+<style>.circle-green{stroke: #0586f0}.js_lw_timer_show {fill: #a1a1a1}.text {color: #333333}.time_units {fill: }</style></head>
+<body>
+
+<input type="hidden" id="js_style" value="circles" /><input type="hidden" id="js_language" value="en" /><input type="hidden" id="js_date" value="1648479600" /><input type="hidden" id="js_tz" value="Europe/Berlin" /><input type="hidden" id="js_uid" value="1" />
+<div id="js_countdown_circle">
+<div id="countdown">
+<div class="text">Countdown</div>
+	<svg class="circles" id="circle_day" viewbox="42 52 115 115" xmlns="http://www.w3.org/2000/svg">
+		<g>
+			<circle r="40" cx="100" cy="100" fill="transparent" ></circle>
+			<path fill="none" stroke-linecap="round" stroke-width="2" stroke="#ddd" stroke-dasharray="250,250" d="M100 60 A1 1 0 0 1 100 140 A1 1 0 0 1 100 60" ></path>
+			<path class="circle-green" fill="none" stroke-linecap="round" stroke="#009B9D" stroke-dasharray="252,252" stroke-width="3"  d="M100 60 A1 1 0 0 1 100 140 A1 1 0 0 1 100 60" ></path>
+			<text class="js_lw_timer_show" text-anchor="middle" x="100" y="115" font-size="45px" font-weight="400" fill="#344154"></text>
+		</g>
+		<g>
+			<text class="time_units" text-anchor="middle" x="100" y="160">Days</text>
+		</g>
+	</svg>
+
+	<svg class="circles" id="circle_hour" viewbox="42 52 115 115" xmlns="http://www.w3.org/2000/svg">
+		<g>
+			<circle r="40" cx="100" cy="100" fill="transparent" ></circle>
+			<path fill="none" stroke-linecap="round" stroke-width="2" stroke="#ddd" stroke-dasharray="250,250" d="M100 60 A1 1 0 0 1 100 140 A1 1 0 0 1 100 60" ></path>
+			<path class="circle-green" fill="none" stroke-linecap="round" stroke="#009B9D" stroke-dasharray="252,252" stroke-width="3"  d="M100 60 A1 1 0 0 1 100 140 A1 1 0 0 1 100 60" ></path>
+			<text class="js_lw_timer_show" text-anchor="middle" x="100" y="115" font-size="45px" font-weight="400" fill="#344154"></text>
+		</g>
+		<g>
+			<text class="time_units" text-anchor="middle" x="100" y="160">Hours</text>
+		</g>
+	</svg>
+
+	<svg class="circles" id="circle_minute" viewbox="42 52 115 115" xmlns="http://www.w3.org/2000/svg">
+		<g>
+			<circle r="40" cx="100" cy="100" fill="transparent" ></circle>
+			<path fill="none" stroke-linecap="round" stroke-width="2" stroke="#ddd" stroke-dasharray="250,250" d="M100 60 A1 1 0 0 1 100 140 A1 1 0 0 1 100 60" ></path>
+			<path class="circle-green" fill="none" stroke-linecap="round" stroke="#009B9D" stroke-dasharray="252,252" stroke-width="3"  d="M100 60 A1 1 0 0 1 100 140 A1 1 0 0 1 100 60" ></path>
+			<text class="js_lw_timer_show" text-anchor="middle" x="100" y="115" font-size="45px" font-weight="400" fill="#344154"></text>
+		</g>
+		<g>
+			<text class="time_units" text-anchor="middle" x="100" y="160">Minutes</text>
+		</g>
+	</svg>
+
+	<svg class="circles" id="circle_second" viewbox="42 52 115 115" xmlns="http://www.w3.org/2000/svg">
+		<g>
+			<circle r="40" cx="100" cy="100" fill="transparent" ></circle>
+			<path fill="none" stroke-linecap="round" stroke-width="2" stroke="#ddd" stroke-dasharray="250,250" d="M100 60 A1 1 0 0 1 100 140 A1 1 0 0 1 100 60" ></path>
+			<path class="circle-green" fill="none" stroke-linecap="round" stroke="#009B9D" stroke-dasharray="252,252" stroke-width="3"  d="M100 60 A1 1 0 0 1 100 140 A1 1 0 0 1 100 60" ></path>
+			<text class="js_lw_timer_show" text-anchor="middle" x="100" y="115" font-size="45px" font-weight="400" fill="#344154"></text>
+		</g>
+		<g>
+			<text class="time_units" text-anchor="middle" x="100" y="160">Seconds</text>
+		</g>
+	</svg>
+
+</div>
+</div>
+<script src="https://web.logwork.com/cores/161/tpl/main/widget/countdown/js/circles.js"></script>
+</body>
+</html>
